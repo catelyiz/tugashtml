@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurikulum Front-End</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h2 class="text-center">Kurikulum Front-End</h2>
+
+            <div class="section">
+                <h3 class="section-title">Materi yang Akan Dipelajari</h3>
+                <ul>
+                    <li>Pengenalan HTML5 & Struktur Dasar</li>
+                    <li>CSS Selector & Styling</li>
+                    <li>Konsep Box Model</li>
+                    <li>Tipografi & Tata Warna</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h3 class="section-title">Langkah-Langkah Belajar</h3>
+                <ol>
+                    <li>Pahami struktur DOM pada HTML</li>
+                    <li>Pelajari cara menghubungkan CSS ke HTML</li>
+                    <li>Latihan membuat komponen sederhana (seperti card)</li>
+                    <li>Upload hasil karya ke GitHub</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurikulum Front-End</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h2 class="text-center">Kurikulum Front-End</h2>
+
+            <div class="section">
+                <h3 class="section-title">Materi yang Akan Dipelajari</h3>
+                <ul>
+                    <li>Pengenalan HTML5 & Struktur Dasar</li>
+                    <li>CSS Selector & Styling</li>
+                    <li>Konsep Box Model</li>
+                    <li>Tipografi & Tata Warna</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h3 class="section-title">Langkah-Langkah Belajar</h3>
+                <ol>
+                    <li>Pahami struktur DOM pada HTML</li>
+                    <li>Pelajari cara menghubungkan CSS ke HTML</li>
+                    <li>Latihan membuat komponen sederhana (seperti card)</li>
+                    <li>Upload hasil karya ke GitHub</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+/* Reset dasar untuk margin dan padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    /* Flexbox untuk menengahkan konten di layar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+}
+
+.container {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Styling utama untuk Card */
+.card {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    max-width: 550px;
+    width: 100%;
+}
+
+.card-center {
+    text-align: center;
+}
+
+/* =========================================
+   Styling Khusus index.html
+   ========================================= */
+.subtitle {
+    color: #5c6bc0;
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    color: #0b132b;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.description {
+    color: #64748b;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    font-size: 0.95rem;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #111827;
+    color: #ffffff;
+    padding: 12px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #1f2937;
+}
+
+/* =========================================
+   Styling Khusus list-materi.html
+   ========================================= */
+.text-center {
+    text-align: center;
+}
+
+h2 {
+    color: #111827;
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+}
+
+.section {
+    margin-bottom: 25px;
+}
+
+.section-title {
+    color: #6a67ce;
+    font-size: 1.05rem;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e2e8f0;
+    margin-bottom: 15px;
+}
+
+/* Styling untuk list (ul dan ol) */
+ul, ol {
+    padding-left: 20px;
+    color: #475569;
+    line-height: 1.8;
+    font-size: 0.95rem;
+}
+
+ul {
+    list-style-type: square; /* Membuat bullet berbentuk kotak */
+}
